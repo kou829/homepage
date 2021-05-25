@@ -29,6 +29,11 @@ video{
     transform: none;
 }
 
+.COMPAS .show {
+    opacity: 1;
+    transform: none;
+}
+
 /* ヘッダー部分 */
 .nav {
     margin-left: 70vw;
@@ -196,6 +201,26 @@ table {
 .VIDEO_sentence_URL {
     margin-left: 130px;
     margin-bottom: 30px;
+}
+
+/* コンパス サイトの説明 */
+.compas_box {
+    margin: 30px 0;
+    display: flex;
+}
+
+.compas_sentence h3 {
+    margin: 20px 0 10px 130px;
+}
+
+.compas_sentence p {
+    margin: 30px 100px 0 130px;
+    line-height: 30px;
+    width: 630px;
+}
+
+.compas_image_main img {
+    box-shadow: 2px 2px 2px 2px #333;
 }
 
 /* フッター部分 */
